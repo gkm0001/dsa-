@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+ 
+void printNumber(int num) {
+	cout << num << endl;
+}
+int main() {
+int a = 5;
+ cout << "Address of a is: " << &a << endl;
+	
+	 printNumber(a);
+  return 0;
+  }
